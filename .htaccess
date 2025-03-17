@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^tac-pham/([a-zA-Z0-9\-]+)$ mautp.php?slug=$1 [L,QSA]
+
+RewriteRule ^the-loai/([a-zA-Z0-9\-]+)$ mautl.php?slug=$1 [L,QSA]
